@@ -508,7 +508,7 @@ footer h2 {
     font-size: 1.3rem;
 }
 
-.footer_contact_us .copy_icon:hover{
+.footer_contact_us .copy_icon:hover {
     cursor: copy;
 }
 
@@ -842,6 +842,23 @@ footer h2 {
 
 
 
+    /* PRE-LOADER  */
+
+    .loader img {
+        width: 50%;
+    }
+
+    /* CLOSE PRE-LOADER */
+
+
+
+
+
+
+
+
+
+    
 }
 
 @media screen and (max-width: 580px) {

@@ -3,15 +3,15 @@ const ShowServiceItem = (new_element, required_class) => {
     const description = [
         {
             title: 'Website Development',
-            text: `We build a complete website based on a previous design of your website, either done by us in our Web Design service or by a third party. We start by establishing the structure of the site, followed by the design and its functions and finally the launch of the site on a server.`
+            text: `We build a complete website based on a previous design of your website, either done by us in our Web Design service or by a third party. We start by establishing the structure of the site, followed by the design and its functions and finally the launch of the site on a server.`,
         },
         {
             title: 'Website Design',
-            text: 'We design your web page, starting with a sketch in which we define all the sections of your site and establish the user interface that we build from your ideas. Then we adapt the sketch to programs such as Photoshop or Figma and deliver the final design in the format you want.'
+            text: 'We design your web page, starting with a sketch in which we define all the sections of your site and establish the user interface that we build from your ideas. Then we adapt the sketch to programs such as Photoshop or Figma and deliver the final design in the format you want.',
         },
         {
             title: 'Webserver Maintainance',
-            text: 'We take care of maintaining your website previously hosted on a server, either done by us at the Web Development service or by a third party. We manage the content of your page, we verify that your server is the most appropriate for the needs of your page, we change the server if necessary, and more.'
+            text: 'We take care of maintaining your website previously hosted on a server, either done by us at the Web Development service or by a third party. We manage the content of your page, we verify that your server is the most appropriate for the needs of your page, we change the server if necessary, and more.',
         },
     ]
 
@@ -21,6 +21,7 @@ const ShowServiceItem = (new_element, required_class) => {
             item.className = required_class
             item.src = services[i].src
             item.id = services[i].id
+            item.alt = services[i].alt
 
             let description_box = document.createElement('div')
             description_box.className = 'service_description'
