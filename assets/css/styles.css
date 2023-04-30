@@ -456,7 +456,7 @@ footer h2 {
 
 .footer_logo img {
     width: 200px;
-    padding: 10px;
+    margin: 80px 10px 10px 125px;
 }
 
 .footer_info {
@@ -858,7 +858,7 @@ footer h2 {
 
 
 
-    
+
 }
 
 @media screen and (max-width: 580px) {
@@ -989,6 +989,16 @@ footer h2 {
 
     footer h2 {
         margin-bottom: 5px;
+    }
+
+    .footer_logo{
+        display: grid;
+        place-items: center;
+    }
+
+    .footer_logo img {
+        width: 200px;
+        margin: 20px 0px 0px 0px;
     }
 
     .footer_info {
